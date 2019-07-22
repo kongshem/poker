@@ -62,7 +62,7 @@ public class Player {
         System.out.println("--------------");
     }
 
-    //TODO:
+    //TODO: Skal implementeres
     public boolean beatsPlayer(Player opponent){
         return false;
     }
