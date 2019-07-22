@@ -62,6 +62,11 @@ public class Player {
         System.out.println("--------------");
     }
 
+    //TODO:
+    public boolean beatsPlayer(Player opponent){
+        return false;
+    }
+
     private void sortByRank(){
         Collections.sort(hand, Comparator.comparingInt(a -> a.number));
     }

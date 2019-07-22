@@ -11,7 +11,7 @@ public class Deck {
     public List<Kort> shuffle(){
         List<Kort> list = new ArrayList<>();
         for (Suit s: Suit.values()) {
-            for (int j = 1; j < 14; j++) {
+            for (int j = 2; j < 14; j++) {
                 list.add(new Kort(s, j));
             }
         }
