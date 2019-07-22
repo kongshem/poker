@@ -1,7 +1,7 @@
 #Poker 5-card draw
 5 Card draw poker er et kortspill som går ut på at hver spiller trekker 5 kort. Vi skal ikke implementere et helt spill, 
 men heller fokusere på å evaluere hva slags hånd en spiller har. Ess er høyest De ulike hendene, rangert fra dårligst til best er:
-- Kicker, høyeste kortet på hånden
+- Kicker: høyeste kortet på hånden
 - Et par: F.eks Spar 7 og Hjerter 7
 - To par: f.eks Spar 7 og Herter 7, og Kløver 10 og Ruter 10.
 - 3 like: F.eks Spar 7, Hjerter 7 og Kløver 7
